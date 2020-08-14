@@ -1,0 +1,117 @@
+/* BODY */
+body {
+    background: lightgrey;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    margin: 10px 25px 10px 0px;
+    line-height: 30px;
+}
+
+
+/* HEADERS */
+h1 {
+    color: lightseagreen;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 0px 0px 0px;
+}
+
+
+/* NAVIGATION */
+.logo {
+    position: fixed;
+    float: left;
+    margin: 16px 20px;
+    color: lightseagreen;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .logo a {
+      text-decoration: none;
+  }
+
+  .logo a:visited {
+      color: lightseagreen;
+  }
+  
+  nav {
+    position: fixed;
+    width: 100%;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    background-color: white;
+    opacity: 100%;
+    overflow: hidden;
+    color: white;
+    text-align: right;
+    margin: 0;
+    transition: 1s;
+  }
+  
+  nav.black ul {
+    background: lightgray;
+    opacity: 100%;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: lightseagreen;
+    font-size: 16px;
+  }
+
+  nav ul li a:hover {
+    color: #376167;
+    font-weight: bold;
+    font-size: 18px;
+}
+  
+  .menu-icon {
+    width: 100%;
+    background: lightgray;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: lightseagreen;
+    font-size: 12px;
+    display: none;
+  }
+  
+
+
+
+/* FOOTER */
+footer {
+    background: #666;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.social {
+    font-size: 24px;
+    color: white; 
+    text-decoration: none;
+    
+}
+
+.social a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.social a:hover {
+    color: lightseagreen;
+}
