@@ -115,3 +115,37 @@ footer {
 .social a:hover {
     color: lightseagreen;
 }
+
+
+@media(max-width: 580px) {
+    /* Navigation Styles */
+    .logo {
+      position: fixed;
+      top: 0;
+      margin-top: 10px;
+    }
+
+    nav ul {
+      max-height: 0px;
+      background: lightgray;
+    }
+
+    nav.black ul {
+      background: lightgray;
+    }
+
+    .showing {
+      max-height: 20em;
+    }
+
+    nav ul li {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 10px 0;
+      text-align: center;
+    }
+    
+    .menu-icon {
+      display: block;
+    }
+}
