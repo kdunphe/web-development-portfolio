@@ -85,6 +85,28 @@ h1 {
   }
 
 
+/* IMAGES */
+img {
+  float: left;
+  margin: 10px 25px 25px 0px;
+}
+
+.card-title {
+  position: relative;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  background: lightseagreen;
+  opacity: 70%;
+  color: white;
+  padding: 10px;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+
 /* FORM */
 /* form {
     width: 75%;
