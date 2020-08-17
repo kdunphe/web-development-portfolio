@@ -10,12 +10,34 @@ p {
 }
 
 
+/* PAGE SECTIONS */
+main {
+  background-color: lightgray;
+  padding: 150px 10px 75px 10px;
+}
+
+#portfolio {
+  background-color: darkcyan;
+  padding: 75px;
+  color: white;
+}
+
+#contact {
+  background-color: lightgray;
+  padding: 75px;
+}
+
+
 /* HEADERS */
 h1 {
     color: lightseagreen;
     font-weight: bold;
     font-size: 30px;
     padding: 20px 0px 0px 0px;
+}
+
+h1.portfolio {
+  color: white;
 }
 
 
@@ -107,15 +129,6 @@ img {
 }
 
 
-/* FORM */
-/* form {
-    width: 75%;
-
-} */
-  
-
-
-
 /* FOOTER */
 footer {
     background: #666;
@@ -142,6 +155,7 @@ footer {
 }
 
 
+/* MEDIA QUERIES */
 @media(max-width: 580px) {
     /* Navigation Styles */
     .logo {
